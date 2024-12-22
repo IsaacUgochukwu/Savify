@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Savify - Save your interests</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="blur">
+  <br>
+  <div>
+    <h2><a href="index.html"><img src="assets/logo.png" class="logo"></a></h2>
+  </div>
+  <br>
+  <br>
+  <div class="description">
+    <p>A place for your <span>interests</span></p>
+  </div>
+  <br>
+  <br>
+  <div class="interests"></div>
+  <br>
+  <br>
+  <button type="button" class="button" id="add-interest-button">Save an interest</button><br><br>
+  </div>
+  <div id="save-interest-form" class="save-interest-form hide">
+    <form>
+      <button class="cancel-btn">x</button>
+      <h2>Fill in some interest details</h2><br>
+      <input type="text" placeholder="Interest name" id="interest-name" name="interest-name">
+      <br>
+      <br>
+      <input type="text" placeholder="Interest value" id="interest-value" name="interest-value">
+      <br><p class="message"></p>
+      <br><br>
+      <button type="button" class="button" id="save-interest-btn">Save</button>
+    </form>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

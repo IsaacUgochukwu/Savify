@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  font-size: 1rem;  
+  font-family: "Poppins";
+}
+
+h2 {
+  margin: 10px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  width: 80%;
+  height: auto;
+  font: inherit;
+  padding: 1rem;
+  display: block;
+  margin: auto;
+  border: thin solid gray;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.description {
+  text-align: center;
+  color: blue;
+  font-size: 1.3rem;
+}
+
+.show {
+  display: block;
+}
+
+.save-interest-form {
+  width: 90%;
+  height: auto;
+  padding: 1rem;
+  border: thin solid gray;
+  border-radius: 8px;
+  background-color: whitesmoke;
+  margin: auto;
+  position: fixed;
+  top: 50px;
+  left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+.blur {
+  filter: blur(3px);
+}
+
+input[type="text"] {
+  width: 90%;
+  height: 40px;
+  display: block;
+  border: thin solid gray;
+  border-radius: 5px;
+  margin: auto;
+  padding: 4px;
+  font: inherit;
+}
+
+.interests {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  /*border-radius: 8px;*/
+  background-color: whitesmoke;
+  padding: 1rem;
+  transition: all ease 1s;
+}
+
+.interests:hover, .interests:active, .interests:focus {
+  transform: scale(110%);
+}
+
+.interest {
+  display: block;
+  margin: 1rem;
+  font-size: 1.1rem;
+  padding: 1rem;
+  border: thin solid gray;
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  width: 180px;
+  height: 100px;
+  border-radius: 2px;
+}
+
+.cancel-btn {
+  background-color: red;
+  color: white;
+  border: thin solid gray;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.3rem;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.message {
+  text-align: center;
+  color: red;
+  font-size: 1rem;
+}
+
+.interest-name {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.interest-description {
+  font-size: 1rem;
+}
